@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+//mongoose simplifies the database management and it's intution of api (application programming interface)
 
 const eventSchema = new mongoose.Schema({
   title: {
